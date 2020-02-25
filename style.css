@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+}
+
+body {
+  color: #181818;
+  font-weight: 400;
+  max-width: 50em;
+  margin: 0 auto;
+  padding: 20px;
+  -webkit-font-smoothing: antialiased;
+}
+
+div:focus {
+  outline: none;
+}
+
+#input {
+  font-size: 24px;
+}
+
+h1 {
+  margin: 10px 0;
+  font-size: 48px;
+}
+ul {
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+input {
+  display: block;
+  padding: 8px;
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 18px;
+  color: #181818;
+}
+#notes{
+  border: 1px solid #efefef;
+  margin: 20px auto;
+  border-radius: 5px;
+}
+.notes-item {
+  padding: 10px;
+  border-bottom: 1px solid #efefef;
+}
+
+.notes-item:last-child {
+  border: none;
+}
+.notes-item:nth-child(even) {
+  background-color: #efefef;
+}
+
+.btn {
+  border: none;
+  display: inline-block;
+  margin: 20px 0;
+  font-size: 16px;
+  padding: 8px 16px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  background-color: inherit;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border-radius: 5px;
+  outline: none;
+}
+.btn.fill {
+  color: #fff;
+  background-color: #6699ff;
+}
